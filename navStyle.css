@@ -1,0 +1,22 @@
+
+@media (min-width: 800px) {
+    /*when the window is 1200px or wider, the primary navigation will show */
+    .primaryNav{
+        visibility: show;
+    }  
+
+    .secondaryNav{
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 800px) {
+    /*when the window is 1200px or wider, the secondary navigation will show */
+    .primaryNav{
+        visibility: hidden;
+    }  
+
+    .secondaryNav{
+        visibility: show;
+    }
+}
